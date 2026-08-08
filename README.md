@@ -18,13 +18,46 @@ A simple console-based date conversion program written in pure C. The project pr
 
 ## Screenshots
 
-| Main Menu | Gregorian to Hijri |
+| Main Menu | Error Handling |
 | --------- | ------------------ |
 |           |                    |
 
-| Hijri to Gregorian | Error Handling |
+| Hijri to Gregorian | Gregorian to Hijri |
 | ------------------- | -------------- |
 |                     |                |
+
+
+## Algorithm Logic (Pseudocode)
+
+```text
+START PROGRAM
+    INITIALIZE newConversion = 'y'
+    
+    WHILE newConversion IS 'y' OR 'Y':
+        DISPLAY conversion menu (1: Gregorian -> Hijri, 2: Hijri -> Gregorian)
+        READ mode choice
+        
+        IF mode is VALID (1 or 2):
+            READ input date
+            CALCULATE and DISPLAY converted date via conversionOperation()
+            
+            PROMPT user for another conversion ('y' / 'n')
+            READ newConversion
+            
+            WHILE newConversion IS NOT ('y', 'Y', 'n', 'N'):
+                FLUSH input buffer
+                DISPLAY error message
+                READ newConversion
+                
+            IF newConversion IS 'n' OR 'N':
+                BREAK loop
+        ELSE:
+            FLUSH input buffer
+            DISPLAY mode selection error message
+
+END PROGRAM
+```
+
 
 ## How It Works
 
