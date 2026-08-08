@@ -20,11 +20,11 @@ A simple console-based date conversion program written in pure C. The project pr
 
 | Main Menu | Error Handling |
 | --------- | ------------------ |
-|           |                    |
+| ![Main Menu](assets/Main-menu.png) |                    |
 
 | Hijri to Gregorian | Gregorian to Hijri |
 | ------------------- | -------------- |
-|                     |                |
+|  ![Hijri to Gregorian](assets/Hijri-to-Gregorian.png)   |  ![Gregorian to Hijri](assets/Gregorian-to-Hijri.png)  |
 
 
 ## Algorithm Logic (Pseudocode)
