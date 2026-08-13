@@ -29,8 +29,7 @@ A simple console-based date conversion program written in pure C. The project pr
 
 ## Algorithm Logic (Pseudocode)
 
-```text
-START PROGRAM
+```textSTART PROGRAM
     INITIALIZE newConversion = 'y'
     
     WHILE newConversion IS 'y' OR 'Y':
@@ -39,7 +38,7 @@ START PROGRAM
         
         IF mode is VALID (1 or 2):
             READ input date
-            CALCULATE and DISPLAY converted date via conversionOperation()
+            CALCULATE and DISPLAY converted date via conversionOpertaion()
             
             PROMPT user for another conversion ('y' / 'n')
             READ newConversion
@@ -67,7 +66,10 @@ END PROGRAM
 4. The converted year is displayed in the console.
 5. The user can choose to perform another conversion or exit the program.
 
-## 📥 Cloning the Repository
+
+## 📥 Cloning & Running the Program  
+
+## Cloning the Repository
 
 To get started, clone this repository using Git:
 ```bash
