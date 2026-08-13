@@ -90,11 +90,14 @@ After compiling, run the generated executable:
 ```
 
 ## 📌 Notes
-The conversion uses a simplified year-based calculation.
-The program is intended as a programming exercise and does not account for the exact differences between the Hijri lunar calendar and Gregorian solar calendar.
-Make sure your terminal supports ANSI escape codes if you want the formatted console output to display correctly.
+- The conversion uses a simplified year-based formula.
 
-On Windows, you can use MinGW, WSL, or a modern terminal environment to compile and run the program.
+- This program is designed as an educational exercise and provides approximate year conversions.
+
+- Make sure your terminal supports ANSI escape codes for styled color output.
+
+- On Windows, you can compile and run this using MinGW, GCC, WSL, or any modern terminal environment.
+
 
 ## 💻 Running the Program Locally
 
